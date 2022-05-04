@@ -1,11 +1,11 @@
-document.addEventListener('DOMContentLoaded', ()=>{
-    const elementosCaruosel = document.querySelectorAll('.Caruosel');
-    M.Caruosel.int(elementosCaruosel,{
+document.addEventListener('DOMContentLoaded', ()=> {
+    const elementosCarousel = document.querySelectorAll('.carousel');
+    M.Carousel.init(elementosCarousel, {
         duration: 150,
         dist:-80,
         shift: 5,
         numVisible: 3,
-        indicautors: true,
+        indicators: true,
         noWrap: true
     });
 });
