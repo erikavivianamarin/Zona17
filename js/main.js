@@ -3,9 +3,9 @@ document.addEventListener('DOMContentLoaded', ()=> {
     M.Carousel.init(elementosCarousel, {
         duration: 150,
         dist:-80,
-        shift: 5,
+        shift: 3,
         numVisible: 3,
-        indicators: true,
+        indicators: false,
         noWrap: true
     });
 });
